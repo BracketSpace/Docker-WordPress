@@ -36,7 +36,7 @@ services:
         command: "sh wp.sh"
 
     db:
-        image: mysql
+        image: mysql:5.7
         ports:
             - 3306:3306
         environment:
